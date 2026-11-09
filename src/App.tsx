@@ -15,9 +15,7 @@ const assetPathPrefix = `${import.meta.env.BASE_URL}assets`
 const assets = {
   canvas: `${assetPathPrefix}/b7add.png`,
   cursor: `${assetPathPrefix}/b7317.svg`,
-  glow: `${assetPathPrefix}/9de2d.svg`,
   grain: `${assetPathPrefix}/209a8.svg`,
-  mask: `${assetPathPrefix}/0d73e.svg`,
 }
 
 const blueWave = {
@@ -194,8 +192,7 @@ export default function App() {
         <div className="right-art" aria-hidden="true" ref={waterRef}>
           <ShaderEffect className="ripple-effect" shaders={[reactiveRipple]}>
             <div className="ripple-inner">
-              <ShaderFill className="shader-fill" mask={`url("${assets.mask}")`} shader={pinkWave} />
-              <img src={assets.mask} alt="" width="806" height="982" />
+              <ShaderFill className="shader-fill" shader={pinkWave} />
             </div>
           </ShaderEffect>
         </div>
@@ -215,10 +212,6 @@ export default function App() {
           </ReactiveText>
         </div>
 
-        <a className="portfolio-button" href="#portfolio" aria-label="Explore the portfolio">
-          <img className="retro-glow" src={assets.glow} alt="" width="493" height="416" />
-          <span>portfolio</span>
-        </a>
       </section>
 
       <section className="portfolio-section" id="portfolio">
