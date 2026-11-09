@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="82.0002" height="84.4578" viewBox="0 0 82.0002 84.4578" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Portfolio Arrow">
+<path id="Arrow Head" d="M52 2V82M80 62L52 82L24 62" stroke-width="4" stroke-linecap="round" stroke="#DF1478"/>
+<circle id="Tail Dot" opacity="0.8" cx="16" cy="46" r="4" fill="#DF1478"/>
+<circle id="Tail Dot 2" opacity="0.6" cx="5" cy="47" r="5" fill="#DF1478"/>
+<line id="Accent Line 1" x1="21.4142" y1="12" x2="28.4853" y2="19.0711" stroke-width="2" stroke-linecap="round" stroke="#DF1478"/>
+<line id="Accent Line 2" x1="20" y1="70.5858" x2="27.0711" y2="63.5147" stroke-width="2" stroke-linecap="round" stroke="#DF1478"/>
+</g>
+</svg>
